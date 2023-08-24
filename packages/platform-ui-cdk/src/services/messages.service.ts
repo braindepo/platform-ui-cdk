@@ -1,6 +1,7 @@
 import {
   IMessage,
   NoAccessMessage,
+  ProfileOutdatedMessage,
   TokenExpiredMessage,
   TokenInvalidMessage,
   TokenNotFoundMessage,
@@ -22,6 +23,10 @@ export class MessagesService {
 
   sendNoAccessMessage(): void {
     this.sendMessage(new NoAccessMessage());
+  }
+
+  sendProfileOutdatedMessage(): void {
+    this.sendMessage(new ProfileOutdatedMessage());
   }
 
   sendTokenExpiredMessage(): void {
