@@ -1,6 +1,6 @@
 {
   "name": "@braindepo/platform-ui-cdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "private": false,
   "dependencies": {
     "eslint-plugin-prettier": "^4.2.1",
-    "tslib": "^2.3.0"
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@nrwl/devkit": "^15.9.4",
